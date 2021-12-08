@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test2(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM">
+        <methods>
+          <include name="CreateOprWithPerceptionAnalysis"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM -->
+      <class name="com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM">
+        <methods>
+          <include name="CreateOprWithProposalPriceQuote"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM -->
+      <class name="com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM">
+        <methods>
+          <include name="CreateOprWithIdDecisionMakers"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM -->
+      <class name="com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM">
+        <methods>
+          <include name="CreateOprWithNegotiationReview"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM -->
+      <class name="com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM">
+        <methods>
+          <include name="CreateOprWithClosedWon"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" name="Test1(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM">
+        <methods>
+          <include name="CreateOprWithPerceptionAnalysis"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM -->
+      <class name="com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM">
+        <methods>
+          <include name="CreateOprWithProposalPriceQuote"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM -->
+      <class name="com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM">
+        <methods>
+          <include name="CreateOprWithIdDecisionMakers"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM -->
+      <class name="com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM">
+        <methods>
+          <include name="CreateOprWithNegotiationReview"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM -->
+      <class name="com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM">
+        <methods>
+          <include name="CreateOprWithClosedWon"/>
+        </methods>
+      </class> <!-- com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
