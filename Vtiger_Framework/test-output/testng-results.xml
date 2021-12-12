@@ -1,155 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="212844" started-at="2021-10-27T12:25:51 IST" finished-at="2021-10-27T12:29:24 IST">
+  <suite name="Default suite" duration-ms="7595" started-at="2021-12-10T18:12:47 IST" finished-at="2021-12-10T18:12:55 IST">
     <groups>
-      <group name="regression">
-        <method signature="TC_03CreateOprWithProposalPriceQuotePOM.CreateOprWithProposalPriceQuote()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM@a38d7a3]" name="CreateOprWithProposalPriceQuote" class="com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM"/>
-        <method signature="TC_04CreateOprWithNegotiationReviewPOM.CreateOprWithNegotiationReview()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM@7a3d45bd]" name="CreateOprWithNegotiationReview" class="com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM"/>
-        <method signature="TC_05CreateOprWithClosedWonPOM.CreateOprWithClosedWon()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM@1a3869f4]" name="CreateOprWithClosedWon" class="com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM"/>
-        <method signature="TC_03CreateOprWithProposalPriceQuotePOM.CreateOprWithProposalPriceQuote()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM@7403c468]" name="CreateOprWithProposalPriceQuote" class="com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM"/>
-        <method signature="TC_04CreateOprWithNegotiationReviewPOM.CreateOprWithNegotiationReview()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM@1d371b2d]" name="CreateOprWithNegotiationReview" class="com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM"/>
-        <method signature="TC_05CreateOprWithClosedWonPOM.CreateOprWithClosedWon()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM@51c8530f]" name="CreateOprWithClosedWon" class="com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="CreateOrganizationTest.createOrganizationTest()[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@46daef40]" name="createOrganizationTest" class="com.crm.vtiger.OpportunityTest.CreateOrganizationTest"/>
-        <method signature="TC_01CreateOprWithIdDecisionMakersPOM.CreateOprWithIdDecisionMakers()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM@77ec78b9]" name="CreateOprWithIdDecisionMakers" class="com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM"/>
-        <method signature="TC_02CreateOprWithPerceptionAnalysisPOM.CreateOprWithPerceptionAnalysis()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM@1e7c7811]" name="CreateOprWithPerceptionAnalysis" class="com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM"/>
-        <method signature="CreateOrganizationTest.createOrganizationTest()[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@32eebfca]" name="createOrganizationTest" class="com.crm.vtiger.OpportunityTest.CreateOrganizationTest"/>
-        <method signature="TC_01CreateOprWithIdDecisionMakersPOM.CreateOprWithIdDecisionMakers()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM@13eb8acf]" name="CreateOprWithIdDecisionMakers" class="com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM"/>
-        <method signature="TC_02CreateOprWithPerceptionAnalysisPOM.CreateOprWithPerceptionAnalysis()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM@543c6f6d]" name="CreateOprWithPerceptionAnalysis" class="com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM"/>
-      </group> <!-- smoke -->
     </groups>
-    <test name="Test1" duration-ms="212117" started-at="2021-10-27T12:25:51 IST" finished-at="2021-10-27T12:29:23 IST">
-      <class name="com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM">
-        <test-method status="PASS" signature="CreateOprWithPerceptionAnalysis()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM@1e7c7811]" name="CreateOprWithPerceptionAnalysis" duration-ms="29772" started-at="2021-10-27T12:27:08 IST" finished-at="2021-10-27T12:27:38 IST">
+    <test name="Default test" duration-ms="7595" started-at="2021-12-10T18:12:47 IST" finished-at="2021-12-10T18:12:55 IST">
+      <class name="testScripts.urbanladder">
+        <test-method status="PASS" signature="demo()[pri:0, instance:testScripts.urbanladder@33c7e1bb]" name="demo" duration-ms="7536" started-at="2021-12-10T18:12:47 IST" finished-at="2021-12-10T18:12:55 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateOprWithPerceptionAnalysis -->
-      </class> <!-- com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM -->
-      <class name="com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM">
-        <test-method status="PASS" signature="CreateOprWithNegotiationReview()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM@7a3d45bd]" name="CreateOprWithNegotiationReview" duration-ms="33825" started-at="2021-10-27T12:26:35 IST" finished-at="2021-10-27T12:27:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOprWithNegotiationReview -->
-      </class> <!-- com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM -->
-      <class name="com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM">
-        <test-method status="PASS" signature="CreateOprWithClosedWon()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM@1a3869f4]" name="CreateOprWithClosedWon" duration-ms="37807" started-at="2021-10-27T12:28:08 IST" finished-at="2021-10-27T12:28:46 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOprWithClosedWon -->
-      </class> <!-- com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM -->
-      <class name="com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM">
-        <test-method status="PASS" signature="CreateOprWithIdDecisionMakers()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM@77ec78b9]" name="CreateOprWithIdDecisionMakers" duration-ms="29759" started-at="2021-10-27T12:27:38 IST" finished-at="2021-10-27T12:28:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOprWithIdDecisionMakers -->
-      </class> <!-- com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM -->
-      <class name="com.crm.vtiger.OpportunityTest.CreateOrganizationTest">
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@46daef40]" name="launchBrowser" is-config="true" duration-ms="9185" started-at="2021-10-27T12:25:51 IST" finished-at="2021-10-27T12:26:00 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@46daef40]" name="loginToApp" is-config="true" duration-ms="10647" started-at="2021-10-27T12:26:00 IST" finished-at="2021-10-27T12:26:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method status="PASS" signature="createOrganizationTest()[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@46daef40]" name="createOrganizationTest" duration-ms="21558" started-at="2021-10-27T12:26:11 IST" finished-at="2021-10-27T12:26:32 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrganizationTest -->
-        <test-method status="PASS" signature="LogoutFromApp()[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@46daef40]" name="LogoutFromApp" is-config="true" duration-ms="2022" started-at="2021-10-27T12:26:32 IST" finished-at="2021-10-27T12:26:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoutFromApp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@46daef40]" name="closeBrowser" is-config="true" duration-ms="270" started-at="2021-10-27T12:26:34 IST" finished-at="2021-10-27T12:26:35 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.vtiger.OpportunityTest.CreateOrganizationTest -->
-      <class name="com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM">
-        <test-method status="PASS" signature="CreateOprWithProposalPriceQuote()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM@a38d7a3]" name="CreateOprWithProposalPriceQuote" duration-ms="37210" started-at="2021-10-27T12:28:46 IST" finished-at="2021-10-27T12:29:23 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOprWithProposalPriceQuote -->
-      </class> <!-- com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM -->
-    </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="212844" started-at="2021-10-27T12:25:51 IST" finished-at="2021-10-27T12:29:24 IST">
-      <class name="com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM">
-        <test-method status="PASS" signature="CreateOprWithNegotiationReview()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM@1d371b2d]" name="CreateOprWithNegotiationReview" duration-ms="33709" started-at="2021-10-27T12:26:34 IST" finished-at="2021-10-27T12:27:08 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOprWithNegotiationReview -->
-      </class> <!-- com.crm.vtiger.OpportunityTest.TC_04CreateOprWithNegotiationReviewPOM -->
-      <class name="com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM">
-        <test-method status="PASS" signature="CreateOprWithPerceptionAnalysis()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM@543c6f6d]" name="CreateOprWithPerceptionAnalysis" duration-ms="34332" started-at="2021-10-27T12:27:08 IST" finished-at="2021-10-27T12:27:43 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOprWithPerceptionAnalysis -->
-      </class> <!-- com.crm.vtiger.OpportunityTest.TC_02CreateOprWithPerceptionAnalysisPOM -->
-      <class name="com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM">
-        <test-method status="PASS" signature="CreateOprWithIdDecisionMakers()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM@13eb8acf]" name="CreateOprWithIdDecisionMakers" duration-ms="31400" started-at="2021-10-27T12:27:43 IST" finished-at="2021-10-27T12:28:14 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOprWithIdDecisionMakers -->
-      </class> <!-- com.crm.vtiger.OpportunityTest.TC_01CreateOprWithIdDecisionMakersPOM -->
-      <class name="com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM">
-        <test-method status="PASS" signature="CreateOprWithClosedWon()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM@51c8530f]" name="CreateOprWithClosedWon" duration-ms="36822" started-at="2021-10-27T12:28:14 IST" finished-at="2021-10-27T12:28:51 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOprWithClosedWon -->
-      </class> <!-- com.crm.vtiger.OpportunityTest.TC_05CreateOprWithClosedWonPOM -->
-      <class name="com.crm.vtiger.OpportunityTest.CreateOrganizationTest">
-        <test-method status="PASS" signature="connectDB()[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@32eebfca]" name="connectDB" is-config="true" duration-ms="13" started-at="2021-10-27T12:25:51 IST" finished-at="2021-10-27T12:25:51 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectDB -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@32eebfca]" name="launchBrowser" is-config="true" duration-ms="9384" started-at="2021-10-27T12:25:51 IST" finished-at="2021-10-27T12:26:00 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="loginToApp()[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@32eebfca]" name="loginToApp" is-config="true" duration-ms="10602" started-at="2021-10-27T12:26:00 IST" finished-at="2021-10-27T12:26:11 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToApp -->
-        <test-method status="PASS" signature="createOrganizationTest()[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@32eebfca]" name="createOrganizationTest" duration-ms="21428" started-at="2021-10-27T12:26:11 IST" finished-at="2021-10-27T12:26:32 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrganizationTest -->
-        <test-method status="PASS" signature="LogoutFromApp()[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@32eebfca]" name="LogoutFromApp" is-config="true" duration-ms="1986" started-at="2021-10-27T12:26:32 IST" finished-at="2021-10-27T12:26:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoutFromApp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@32eebfca]" name="closeBrowser" is-config="true" duration-ms="249" started-at="2021-10-27T12:26:34 IST" finished-at="2021-10-27T12:26:34 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="closeDB()[pri:0, instance:com.crm.vtiger.OpportunityTest.CreateOrganizationTest@32eebfca]" name="closeDB" is-config="true" duration-ms="0" started-at="2021-10-27T12:29:24 IST" finished-at="2021-10-27T12:29:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDB -->
-      </class> <!-- com.crm.vtiger.OpportunityTest.CreateOrganizationTest -->
-      <class name="com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM">
-        <test-method status="PASS" signature="CreateOprWithProposalPriceQuote()[pri:0, instance:com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM@7403c468]" name="CreateOprWithProposalPriceQuote" duration-ms="32893" started-at="2021-10-27T12:28:51 IST" finished-at="2021-10-27T12:29:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateOprWithProposalPriceQuote -->
-      </class> <!-- com.crm.vtiger.OpportunityTest.TC_03CreateOprWithProposalPriceQuotePOM -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- demo -->
+      </class> <!-- testScripts.urbanladder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

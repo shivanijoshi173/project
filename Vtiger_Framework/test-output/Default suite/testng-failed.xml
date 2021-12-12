@@ -3,17 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.crm.vtiger.OpportunityTest.CreateOrganizationTest">
+      <class name="testScripts.urbanladder">
         <methods>
-          <include name="LogoutFromApp"/>
-          <include name="loginToApp"/>
-          <include name="launchBrowser"/>
-          <include name="closeDB"/>
-          <include name="connectDB"/>
-          <include name="CreateOrganizationTest"/>
-          <include name="closeBrowser"/>
+          <include name="demo"/>
         </methods>
-      </class> <!-- com.crm.vtiger.OpportunityTest.CreateOrganizationTest -->
+      </class> <!-- testScripts.urbanladder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
